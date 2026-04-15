@@ -16,9 +16,9 @@ An end-to-end data analytics project exploring the correlation between market se
 ## 📁 Project Structure & Documentation
 Properly organized repository for high-level data accessibility:
 
-- **[Insights & Summary](./insights/summary.md)**: A detailed executive summary of findings and strategy performance.
+- **[Insights & Summary](./Insights/summary.md)**: A detailed executive summary of findings and strategy performance.
 - **[Visualizations Folder](./visualizations/)**: Contains all generated charts (Equity Curves, Sentiment Analysis, etc.).
-- **[Raw CSV Data](./data/)**: The source files used for this analysis.
+- **[Raw CSV Data](./DataSets/)**: The source files used for this analysis.
 - **`trading_analysis.ipynb`**: The full Python/Pandas source code and data cleaning pipeline.
 
 ---
