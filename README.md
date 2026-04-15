@@ -13,29 +13,24 @@ An end-to-end data analytics project exploring the correlation between market se
 
 ---
 
-## 📁 Repository Structure
-- **/data**: Raw historical trading data and Fear & Greed Index values.
-- **/insights**: Generated CSV reports for monthly trends and sentiment performance.
-- **/visualizations**: High-resolution charts including Equity Curves and Sentiment Correlation bars.
-- `trading_analysis.ipynb`: Full Python/Pandas source code and data cleaning pipeline.
+## 📁 Project Structure & Documentation
+Properly organized repository for high-level data accessibility:
+
+- **[Insights & Summary](./insights/summary.md)**: A detailed executive summary of findings and strategy performance.
+- **[Visualizations Folder](./visualizations/)**: Contains all generated charts (Equity Curves, Sentiment Analysis, etc.).
+- **[Raw CSV Data](./data/)**: The source files used for this analysis.
+- **`trading_analysis.ipynb`**: The full Python/Pandas source code and data cleaning pipeline.
 
 ---
 
-## 💡 Key Insights
-1. **The "Fear" Alpha:** The strategy generated the highest total profit ($3.35M) during market "Fear" periods, validating a contrarian "buy the dip" approach.
-2. **Profitability Peak:** While total volume was highest in Fear, the **Average Profit per Trade** peaked during "Extreme Greed" ($130.21), suggesting successful exit strategies.
-3. **Asset Concentration:** Assets like **@107** and **HYPE** contributed significantly to the total PnL, highlighting the importance of asset selection in high-volatility environments.
-
----
-
-## 🛠️ Technologies Used
-- **Python** (Pandas, NumPy)
-- **Matplotlib & Seaborn** (Data Visualization)
-- **Google Colab** (Development Environment)
+## 💡 Top Insights
+1. **The "Fear" Alpha:** The strategy generated the highest total profit during market "Fear" periods, validating a contrarian approach.
+2. **Profitability Peak:** While total volume was highest in Fear, the average profit per trade peaked during "Extreme Greed."
+3. **Asset Concentration:** High dependency on specific tickers like **@107** and **HYPE**, which contributed significantly to the total PnL.
 
 ---
 
 ## 🚀 How to Run
-1. Clone this repository.
-2. Ensure you have the files in the `/data` folder.
-3. Run the `trading_analysis.ipynb` notebook in Google Colab or Jupyter.
+1. Clone the repository.
+2. Ensure `historical_data.csv` and `fear_greed_index.csv` are in the `/data` folder.
+3. Open `trading_analysis.ipynb` in Google Colab or Jupyter Notebook and run all cells.
