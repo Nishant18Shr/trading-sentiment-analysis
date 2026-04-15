@@ -19,7 +19,7 @@ Properly organized repository for high-level data accessibility:
 - **[Insights & Summary](./Insights/summary.md)**: A detailed executive summary of findings and strategy performance.
 - **[Visualizations Folder](./visualizations/)**: Contains all generated charts (Equity Curves, Sentiment Analysis, etc.).
 - **[Raw CSV Data](./DataSets/)**: The source files used for this analysis.
-- **`trading_analysis.ipynb`**: The full Python/Pandas source code and data cleaning pipeline.
+- **[Full Code Of The Assignment](./Code/)`trading_analysis.ipynb`**: The full Python/Pandas source code and data cleaning pipeline.
 
 ---
 
